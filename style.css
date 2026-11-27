@@ -44,8 +44,9 @@ nav a{
     border-radius: 49px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 1rem;
-    color: black;
+    font-size: 1.2rem;
+    color: var(--ink);
+    font-family: var(--body);
 }
 nav a:hover{ 
     background: rgba(30, 64, 216, .1); 
@@ -506,8 +507,9 @@ li .blue{
     border: 1px solid rgba(255, 255, 255, .14);
     border-radius: 24px;
     border-bottom-left-radius: 6px;
-    padding: 26px;
+    padding: 30px;
     transition: .3s;
+    /* flex-wrap: wrap; */
 }
 .skill:hover{
     transform: translateY(-10px);
@@ -515,12 +517,16 @@ li .blue{
     background: rgba(255, 255, 255, 0.116);
 }
 .skill-main{
+    margin-left: 40px;
     display: flex;
     align-items: center;
-    gap: 18px;
-    margin-bottom: 20px;
+    /* gap: 100px; */
+    
+    /* margin-bottom: 20px; */
+    
 }
 .skill-main i{
+    margin-left: 10px;
     color: #f26b3a;
     font-size: 2rem;
 }
